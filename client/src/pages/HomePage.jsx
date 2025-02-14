@@ -63,7 +63,7 @@ const HomePage = () => {
   return (
     <div className="form-container">
       <div className="form-header">
-        <h1>OneOnOne</h1>
+        <h1>Video Call</h1>
         <p>Enter your details to join a video call</p>
       </div>
 
@@ -99,12 +99,7 @@ const HomePage = () => {
         </button>
       </form>
       <div className="footer-c">
-        <p className="c-text">
-          Crafted with <span className="heart-icon">❤</span> by{' '}
-          <a href="#" className="d-name">
-            Parth Sadariya
-          </a>
-        </p>
+        <p className="c-text">All rights reserved</p>
       </div>
       <Toaster position="top-center" toastOptions={{ duration: 4000 }} />
     </div>
